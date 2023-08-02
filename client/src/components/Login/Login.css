@@ -1,0 +1,9 @@
+.back{
+    background-image: url(https://account.mongodb.com/static/images/auth/login_promo_desktop.svg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

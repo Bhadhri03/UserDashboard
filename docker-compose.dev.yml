@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  backend:
+    image: app-dev
+    build: auth-server/.
+    ports:
+      - 3000:3000 
+  frontend:
+    image: app-dev
+    build: client/.
+    ports:
+      - 3001:3001 
